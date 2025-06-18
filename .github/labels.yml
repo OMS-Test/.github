@@ -11,3 +11,11 @@ labels:
 - name: question
   description: Further information is requested
   color: cc317b
+
+repos:
+  - name: ome-test/test1
+    labels:
+      - help wanted
+      - bug
+      - enhancement
+      - question
