@@ -13,7 +13,7 @@ labels:
   color: cc317b
 
 repos:
-  - name: ome-test/test1
+  - name: oms-test/test1
     labels:
       - help wanted
       - bug
