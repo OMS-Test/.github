@@ -14,7 +14,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
           # Set this to `true` if you want to get the raw API reponse. Defaults to `false`.
-          raw-result: false
+          raw-result: true
 
           # By default every label entry will have an `aliases` property set to an empty array.
           # It's for EndBug/label-sync, if you don't want it you cans set this to `false`
