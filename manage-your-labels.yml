@@ -49,4 +49,3 @@ LABEL_GROUPS:
 REPOS:
   test1:
     - infrastructure
-  test2:
