@@ -1,66 +1,81 @@
 LABEL_GROUPS:
   DEFAULT:
-    blocked:
-      description: Not yet approved for work or assigned to a future release
+    team-planning:
+      description: Assigned to the planning team for assessment and roadmapping
       color: ffffff
-    blocker:
-      description: Blocking an impending release
+    team-software:
+      description: Assigned to the software team
       color: ffffff
-    bug:
-      description: something isn't working
+    triage:
+      description: Awaiting assessment and assignment
       color: ffffff
-    bug (dependency):
-      description: issue is caused by a bug in a dependency
+      old_names:
+        - blocked
+    icebox:
+      description: On hold or being considered for a future release
+      color: ffffff
+    backlog:
+      description: Planned for a future release
+      color: ffffff
+    approved:
+      description: Approved for work
       color: ffffff
     cannot reproduce:
-      description: More information needed to proceed
+      description: Cannot reproduce bug with information given
       color: ffffff
     confirmed:
-      description: bug reproduced, fix needed
-      color: ffffff
-    critical:
-      description: causes data loss, crashes etc...
+      description: Bug has been preproduced and needs fixing
       color: ffffff
     duplicate:
       description: This issue or pull request already exists
       color: ffffff
     expected behaviour:
-      description: this will not be worked on
-      color: ffffff
-    feature:
-      description: new feature or request
-      color: ffffff
-    high severity:
-      description: incorrect or bad functionality
-      color: ffffff
-    info needed:
-      description: more information needed
-      color: ffffff
-    medium severity:
-      description: cosmetic, formatting etc...
-      color: ffffff
-    P1:
-      description: issue will be seen by all users
-      color: ffffff
-    P2:
-      description: issue will be seen by most users
-      color: ffffff
-    P3:
-      description: issue will be seen by about half of users
-      color: ffffff
-    P4:
-      description: issue will not be seen by most users
-      color: ffffff
-    pending changes:
-      description: pull request needs additional work
+      description: Reported bug is expected behaviour and may not be fixed
       color: ffffff
     pending discussion:
-      description: issue requres clarification
+      description: issue requires clarification or further information
       color: ffffff
-    question:
-      description: further information is requested
-      color: ffffff
+      old_names:
+        - info needed
+        - question
     won't fix:
-      description: Unable to progress, issue will be revisited
+      description: Issue will not be progressed
       color: ffffff
+    severity-high:
+      description: breaking or safety critical
+      color: ffffff
+      old_names:
+        - critical
+        - high severity
+    severity-medium:
+      description: incorrect or bad functionality
+      color: ffffff
+      old_names:
+        - high severity
+    severity-low:
+      description: cosmetic, formatting etc...
+      color: ffffff
+      old_names:
+        - medium severity
+    P1:
+      description: 1st priority
+      color: ffffff
+    P2:
+      description: 2nd priority
+      color: ffffff
+    P3:
+      description: 3rd priority
+      color: ffffff
+    P4:
+      description: 4th priority
+      color: ffffff
+    obsolete:
+      description: obsolete label, ignore
+      color: ffffff
+      old_names:
+        - blocker
+        - bug
+        - bug (dependency)
+        - feature
+        - pending changes
 REPOS:
