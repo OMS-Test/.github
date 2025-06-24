@@ -42,7 +42,7 @@ LABEL_GROUPS:
       description: breaking or safety critical
       color: ffffff
       old_names:
-        - high severity
+        - critical
     severity-medium:
       description: incorrect or bad functionality
       color: ffffff
