@@ -48,4 +48,4 @@ LABEL_GROUPS:
       color: fbca04
 
   REPOS:
-    .github:
+    test1:
