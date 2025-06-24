@@ -2,7 +2,7 @@ LABEL_GROUPS:
   DEFAULT:
     bug:
       description: Something isn't working
-      color: FFFFFF
+      color: FF0000
     debt:
       description: Issues to deal with later
       color: 0c0c75
@@ -48,3 +48,5 @@ LABEL_GROUPS:
       color: fbca04
 
 REPOS:
+  test1:
+  test2:
