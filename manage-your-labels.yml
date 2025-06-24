@@ -2,67 +2,67 @@ LABEL_GROUPS:
   DEFAULT:
     team-planning:
       description: Assigned to the planning team for assessment and roadmapping
-      color: ffffff
+      color: ff0000
     team-software:
       description: Assigned to the software team
-      color: ffffff
+      color: ff0000
     triage:
       description: Awaiting assessment and assignment
-      color: ffffff
+      color: ff0000
       old_names:
         - blocked
     icebox:
       description: On hold or being considered for a future release
-      color: ffffff
+      color: ff0000
     backlog:
       description: Planned for a future release
-      color: ffffff
+      color: ff0000
     approved:
       description: Approved for work
-      color: ffffff
+      color: ff0000
     cannot reproduce:
       description: Cannot reproduce bug with information given
-      color: ffffff
+      color: ff0000
     confirmed:
       description: Bug has been preproduced and needs fixing
-      color: ffffff
+      color: ff0000
     duplicate:
       description: This issue or pull request already exists
-      color: ffffff
+      color: ff0000
     expected behaviour:
       description: Reported bug is expected behaviour and may not be fixed
-      color: ffffff
+      color: ff0000
     pending discussion:
       description: issue requires clarification or further information
-      color: ffffff
+      color: ff0000
     won't fix:
       description: Issue will not be progressed
-      color: ffffff
+      color: ff0000
     severity-high:
       description: breaking or safety critical
-      color: ffffff
+      color: ff0000
       old_names:
         - critical
     severity-medium:
       description: incorrect or bad functionality
-      color: ffffff
+      color: ff0000
       old_names:
         - high severity
     severity-low:
       description: cosmetic, formatting etc...
-      color: ffffff
+      color: ff0000
       old_names:
         - medium severity
     P1:
       description: 1st priority
-      color: ffffff
+      color: ff0000
     P2:
       description: 2nd priority
-      color: ffffff
+      color: ff0000
     P3:
       description: 3rd priority
-      color: ffffff
+      color: ff0000
     P4:
       description: 4th priority
-      color: ffffff
+      color: ff0000
 REPOS:
