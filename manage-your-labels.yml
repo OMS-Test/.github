@@ -35,9 +35,6 @@ LABEL_GROUPS:
     pending discussion:
       description: issue requires clarification or further information
       color: ffffff
-      old_names:
-        - info needed
-        - question
     won't fix:
       description: Issue will not be progressed
       color: ffffff
@@ -45,7 +42,6 @@ LABEL_GROUPS:
       description: breaking or safety critical
       color: ffffff
       old_names:
-        - critical
         - high severity
     severity-medium:
       description: incorrect or bad functionality
@@ -69,13 +65,4 @@ LABEL_GROUPS:
     P4:
       description: 4th priority
       color: ffffff
-    obsolete:
-      description: obsolete label, ignore
-      color: ffffff
-      old_names:
-        - blocker
-        - bug
-        - bug (dependency)
-        - feature
-        - pending changes
 REPOS:
