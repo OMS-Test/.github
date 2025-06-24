@@ -2,7 +2,7 @@ LABEL_GROUPS:
   DEFAULT:
     bug:
       description: Something isn't working
-      color: d73a4a
+      color: FFFFFF
     debt:
       description: Issues to deal with later
       color: 0c0c75
@@ -47,6 +47,5 @@ LABEL_GROUPS:
       description: Issues for automation actions
       color: fbca04
 
-REPOS:
-  Test1:
-  Test2:
+  REPOS:
+    .github:
