@@ -1,49 +1,66 @@
 LABEL_GROUPS:
   DEFAULT:
+    blocked:
+      description: Not yet approved for work or assigned to a future release
+      color: ffffff
+    blocker:
+      description: Blocking an impending release
+      color: ffffff
     bug:
-      description: Something isn't working
-      color: FF0000
-    debt:
-      description: Issues to deal with later
-      color: 0c0c75
-    documentation:
-      description: Improvements or additions to documentation
-      color: efef15
+      description: something isn't working
+      color: ffffff
+    bug (dependency):
+      description: issue is caused by a bug in a dependency
+      color: ffffff
+    cannot reproduce:
+      description: More information needed to proceed
+      color: ffffff
+    confirmed:
+      description: bug reproduced, fix needed
+      color: ffffff
+    critical:
+      description: causes data loss, crashes etc...
+      color: ffffff
     duplicate:
       description: This issue or pull request already exists
-      color: cfd3d7
-    enhancement:
-      description: New feature or request
-      color: a2eeef
-    expertise needed:
-      description: This needs special attention from an area specialist.
-      color: f9928e
-    good first issue:
-      description: Good for newcomers
-      color: a8f475
-    help wanted:
-      description: Extra attention is needed
-      color: '008672'
-    invalid:
-      description: This doesn't seem right
-      color: e4e669
-    question:
-      description: Further information is requested
-      color: d876e3
-    research:
-      description: ''
-      color: ed8661
-    security:
-      description: Issues that have security implications
-      color: ff0000
-    wontfix:
-      description: This will not be worked on
       color: ffffff
-  infrastructure:
-    infrastructure:
-      description: Improvements or additions to project infrastructure
-      color: ffdda8
-    automation:
-      description: Issues for automation actions
-      color: fbca04
+    expected behaviour:
+      description: this will not be worked on
+      color: ffffff
+    feature:
+      description: new feature or request
+      color: ffffff
+    high severity:
+      description: incorrect or bad functionality
+      color: ffffff
+    info needed:
+      description: more information needed
+      color: ffffff
+    medium severity:
+      description: cosmetic, formatting etc...
+      color: ffffff
+    P1:
+      description: issue will be seen by all users
+      color: ffffff
+    P2:
+      description: issue will be seen by most users
+      color: ffffff
+    P3:
+      description: issue will be seen by about half of users
+      color: ffffff
+    P4:
+      description: issue will not be seen by most users
+      color: ffffff
+    pending changes:
+      description: pull request needs additional work
+      color: ffffff
+    pending discussion:
+      description: issue requres clarification
+      color: ffffff
+    question:
+      description: further information is requested
+      color: ffffff
+    won't fix:
+      description: Unable to progress, issue will be revisited
+      color: ffffff
 REPOS:
