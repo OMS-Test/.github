@@ -46,7 +46,6 @@ LABEL_GROUPS:
     automation:
       description: Issues for automation actions
       color: fbca04
-
 REPOS:
   test1:
   test2:
