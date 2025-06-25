@@ -8,7 +8,7 @@ LABEL_GROUPS:
       color: 1566ff
     triage:
       description: Awaiting assessment and assignment
-      color: 000000
+      color: '000000'
       old_names:
         - blocked
     icebox:
@@ -16,7 +16,7 @@ LABEL_GROUPS:
       color: 95efeb
     backlog:
       description: Planned for a future release
-      color: 423206
+      color: '423206'
     approved:
       description: Approved for work
       color: 0e8a16
@@ -28,7 +28,7 @@ LABEL_GROUPS:
       color: 26c129
     duplicate:
       description: This issue or pull request already exists
-      color: 808080
+      color: '808080'
     expected behaviour:
       description: Reported bug is expected behaviour and may not be fixed
       color: f0f0f0
