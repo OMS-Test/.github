@@ -15,7 +15,7 @@ body:
     id: Project
     attributes:
       label: project-name
-      description: "Please provide the project name(s) that your request is associated with, if there is no specific project use 'software improvement'".
+      description: "Please provide the project name(s) that your request is associated with, if there is no specific project use 'software improvement'."
       placeholder: eg. Amazon, Software Improvement
     validations:
       required: true
