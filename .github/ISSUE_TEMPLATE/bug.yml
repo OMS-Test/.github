@@ -32,6 +32,28 @@ body:
         ...
     validations:
       required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How severe is the bug?
+      options:
+        - Critical, I cannot complete my work or the system is unsafe
+        - Very severe
+        - Not very severe
+        - "It's an irritation, but doesn't stop my work"
+    validations:
+      required: true         
+  - type: dropdown
+    id: repeatability
+    attributes:
+      label: How often does the issue appear?
+      options:
+        - Every time
+        - Most times
+        - Ocassionally
+        - Rarely
+    validations:
+      required: true    
   - type: input
     id: version
     attributes:
