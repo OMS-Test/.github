@@ -31,8 +31,8 @@ body:
     id: Date
     attributes:
       label: Due Date
-      description: If this issue has a fixed delivery date please provide the date here (in DD/MM/YYYY format):
-      placeholder: eg. DD/MM/YYY
+      description: "If this issue has a fixed delivery date please provide the date here (in DD/MM/YYYY format):"
+      placeholder: "eg. DD/MM/YYYY"
     validations:
       required: false      
   - type: textarea
