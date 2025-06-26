@@ -64,3 +64,11 @@ body:
       placeholder: vX.Y.Z
     validations:
       required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Provide any relevant additional information about hardware, project, and operating system.
+      description: Any information which will help us in testing, reproducing, or determining issue priority should be added here.
+      placeholder: Anything else?
+    validations:
+      required: false
