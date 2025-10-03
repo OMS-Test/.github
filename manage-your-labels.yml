@@ -12,7 +12,7 @@ LABEL_GROUPS:
       old_names:
         - blocked
     icebox:
-      description: on hold or being considered for a future release
+      description: on hold for future consideration
       color: 95efeb
     backlog:
       description: Planned for a future release
