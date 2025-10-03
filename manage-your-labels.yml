@@ -15,7 +15,7 @@ LABEL_GROUPS:
       description: on hold for future consideration
       color: 95efeb
     backlog:
-      description: Planned for a future release
+      description: planned for a future release
       color: e6e6e6
     approved:
       description: approved for work
